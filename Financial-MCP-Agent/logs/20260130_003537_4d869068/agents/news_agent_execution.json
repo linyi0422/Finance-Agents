@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2026-01-30T00:35:41.548524",
+  "start_timestamp": 1769704541.5485241,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-30T00:39:04.887852",
+  "end_timestamp": 1769704744.887852,
+  "execution_time_seconds": 203.30528569221497,
+  "output_data": {
+    "news_analysis_length": 2633,
+    "analysis_preview": "基于以上收集的信息，我现在为您提供茅台（sh.600519）的全面新闻分析报告：\n\n# 贵州茅台（sh.600519）新闻分析报告\n**分析日期：2026年1月30日**\n\n## 一、新闻数据收集与分析\n\n### 1. 主要新闻事件汇总\n\n根据搜索结果，我识别出以下关键新闻事件：\n\n**新闻1：茅台集团2026年度生产·质量大会召开**\n- **内容摘要**：2025年10月18日，茅台集团召开2026年度生产·质量大会，全面总结2025年生产质量经验成效，科学部署2026年度各项工作任务。\n- **情感分析**：4分（正面）\n- **风险评估**：2分（低风险）\n- **分析**：这表明茅台对产品质量的高度重视，有利于品牌形象和长期发展。\n\n**新闻2：i茅台新年10天\"上新\"速度惊人**\n- **内容摘要**：2026年1月1日起，i茅台APP推出多项新产品和销售政策调整，包括飞天茅台每人每日最多买6瓶，推出多款新产品如丙午马年、鼓乐飞天、精品等。\n- **情感分析**：4分（正面）\n- **风险评估**：2分（低风险）\n- **分析**：显示茅台在数字化转型和市场化运营方面的积极",
+    "llm_execution_time": 191.69012188911438,
+    "total_execution_time": 203.30528569221497
+  },
+  "success": true,
+  "error": null
+}

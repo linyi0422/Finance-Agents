@@ -1,0 +1,1648 @@
+2026-01-30 00:35:41 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-30 00:35:41 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-30 00:35:41 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-30 00:35:41 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-30 00:35:41 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-30 00:35:41 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-30 00:35:41 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-30 00:35:41 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-30 00:35:52 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-30 00:35:53 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-30 00:35:53 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-30 00:35:53 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-30 12:56:58 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-30 12:56:58 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-30 12:56:58 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-30 12:56:58 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-30 12:56:58 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-30 12:56:58 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-30 12:56:58 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-30 12:56:58 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-30 12:57:06 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-30 12:57:06 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-30 12:57:06 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-30 12:57:06 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 13:26:29 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 13:26:29 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 13:26:29 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 13:26:29 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 13:26:29 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 13:26:29 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 13:26:29 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 13:26:29 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 13:26:29 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\tools\mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\client.py", line 142, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\tools.py", line 168, in load_mcp_tools
+    async with create_session(connection) as tool_session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 394, in create_session
+    async with _create_stdio_session(**params) as session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 220, in _create_stdio_session
+    async with (
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2026-01-31 13:26:29 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\tools\mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\client.py", line 142, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\tools.py", line 168, in load_mcp_tools
+    async with create_session(connection) as tool_session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 394, in create_session
+    async with _create_stdio_session(**params) as session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 220, in _create_stdio_session
+    async with (
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2026-01-31 13:26:30 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\tools\mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\client.py", line 142, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\tools.py", line 168, in load_mcp_tools
+    async with create_session(connection) as tool_session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 394, in create_session
+    async with _create_stdio_session(**params) as session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 220, in _create_stdio_session
+    async with (
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2026-01-31 13:26:30 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\tools\mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\client.py", line 142, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\tools.py", line 168, in load_mcp_tools
+    async with create_session(connection) as tool_session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 394, in create_session
+    async with _create_stdio_session(**params) as session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 220, in _create_stdio_session
+    async with (
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2026-01-31 15:47:37 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 15:47:37 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 15:47:37 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 15:47:37 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 15:47:37 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 15:47:37 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 15:47:37 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 15:47:37 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 15:47:38 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\tools\mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\client.py", line 142, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\tools.py", line 168, in load_mcp_tools
+    async with create_session(connection) as tool_session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 394, in create_session
+    async with _create_stdio_session(**params) as session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 220, in _create_stdio_session
+    async with (
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2026-01-31 15:47:38 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\tools\mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\client.py", line 142, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\tools.py", line 168, in load_mcp_tools
+    async with create_session(connection) as tool_session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 394, in create_session
+    async with _create_stdio_session(**params) as session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 220, in _create_stdio_session
+    async with (
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2026-01-31 15:47:38 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\tools\mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\client.py", line 142, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\tools.py", line 168, in load_mcp_tools
+    async with create_session(connection) as tool_session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 394, in create_session
+    async with _create_stdio_session(**params) as session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 220, in _create_stdio_session
+    async with (
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2026-01-31 15:47:38 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\tools\mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\client.py", line 142, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\tools.py", line 168, in load_mcp_tools
+    async with create_session(connection) as tool_session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 394, in create_session
+    async with _create_stdio_session(**params) as session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 220, in _create_stdio_session
+    async with (
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2026-01-31 15:50:23 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 15:50:23 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 15:50:23 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 15:50:23 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 15:50:23 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 15:50:23 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 15:50:23 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 15:50:23 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 15:50:23 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\tools\mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\client.py", line 142, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\tools.py", line 168, in load_mcp_tools
+    async with create_session(connection) as tool_session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 394, in create_session
+    async with _create_stdio_session(**params) as session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 220, in _create_stdio_session
+    async with (
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2026-01-31 15:50:23 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\tools\mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\client.py", line 142, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\tools.py", line 168, in load_mcp_tools
+    async with create_session(connection) as tool_session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 394, in create_session
+    async with _create_stdio_session(**params) as session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 220, in _create_stdio_session
+    async with (
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2026-01-31 15:50:23 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\tools\mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\client.py", line 142, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\tools.py", line 168, in load_mcp_tools
+    async with create_session(connection) as tool_session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 394, in create_session
+    async with _create_stdio_session(**params) as session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 220, in _create_stdio_session
+    async with (
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2026-01-31 15:50:23 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\tools\mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\client.py", line 142, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\tools.py", line 168, in load_mcp_tools
+    async with create_session(connection) as tool_session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 394, in create_session
+    async with _create_stdio_session(**params) as session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 220, in _create_stdio_session
+    async with (
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2026-01-31 16:06:17 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'python', 'args': ['c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need\\mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 16:06:17 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 16:06:17 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'python', 'args': ['c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need\\mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 16:06:17 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 16:06:17 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'python', 'args': ['c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need\\mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 16:06:17 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 16:06:17 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'python', 'args': ['c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need\\mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 16:06:17 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 16:06:18 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 16:06:18 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 16:06:18 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 16:06:18 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 16:21:55 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 16:21:55 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 16:21:55 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 16:21:55 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 16:21:55 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 16:21:55 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 16:21:55 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 16:21:55 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 16:21:55 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\tools\mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\client.py", line 142, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\tools.py", line 168, in load_mcp_tools
+    async with create_session(connection) as tool_session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 394, in create_session
+    async with _create_stdio_session(**params) as session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 220, in _create_stdio_session
+    async with (
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2026-01-31 16:21:55 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\tools\mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\client.py", line 142, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\tools.py", line 168, in load_mcp_tools
+    async with create_session(connection) as tool_session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 394, in create_session
+    async with _create_stdio_session(**params) as session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 220, in _create_stdio_session
+    async with (
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2026-01-31 16:21:55 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\tools\mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\client.py", line 142, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\tools.py", line 168, in load_mcp_tools
+    async with create_session(connection) as tool_session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 394, in create_session
+    async with _create_stdio_session(**params) as session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 220, in _create_stdio_session
+    async with (
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2026-01-31 16:21:55 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\tools\mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\client.py", line 142, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\tools.py", line 168, in load_mcp_tools
+    async with create_session(connection) as tool_session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 394, in create_session
+    async with _create_stdio_session(**params) as session:
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 220, in _create_stdio_session
+    async with (
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_core\_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\anyio\_backends\_asyncio.py", line 2601, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\subprocess.py", line 221, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 399, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_events.py", line 921, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\asyncio\windows_utils.py", line 153, in __init__
+    super().__init__(args, stdin=stdin_rfd, stdout=stdout_wfd,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\ProgramData\anaconda3\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2026-01-31 21:29:34 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 21:29:34 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 21:29:34 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 21:29:34 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 21:29:34 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 21:29:34 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 21:29:35 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 21:29:35 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 21:29:45 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 21:29:45 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 21:29:45 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 21:29:45 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 21:43:46 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 21:43:46 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 21:43:46 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 21:43:46 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 21:43:46 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 21:43:46 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 21:43:46 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 21:43:46 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 21:43:47 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 21:43:47 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 21:43:47 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 21:43:47 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 21:57:39 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 21:57:39 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 21:57:39 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 21:57:39 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 21:57:39 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 21:57:39 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 21:57:39 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 21:57:39 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 21:57:40 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 21:57:40 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 21:57:40 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 21:57:40 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 22:01:43 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 22:01:43 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 22:01:43 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 22:01:43 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 22:01:43 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 22:01:43 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 22:01:43 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 22:01:43 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 22:01:44 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 22:01:44 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 22:01:44 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 22:01:44 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 22:28:50 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 22:28:50 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 22:28:50 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 22:28:50 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 22:28:50 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 22:28:50 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 22:28:50 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', 'c:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2026-01-31 22:28:50 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2026-01-31 22:28:51 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 22:28:51 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 22:28:51 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2026-01-31 22:28:51 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.

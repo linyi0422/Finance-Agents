@@ -1,0 +1,43 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2026-01-31T16:06:17.099042",
+  "start_timestamp": 1769846777.0990424,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2026-01-31T16:08:37.962475",
+  "end_timestamp": 1769846917.962475,
+  "execution_time_seconds": 140.83960628509521,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "current_date": "2026-01-31",
+    "current_date_cn": "2026年01月31日",
+    "current_time": "16:06:15",
+    "current_weekday_cn": "星期六",
+    "current_time_info": "2026年01月31日 (2026-01-31) 星期六 16:06:15",
+    "analysis_timestamp": "2026-01-31T16:06:15.716205",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "fundamental_analysis_error": "Error in MCP or agent execution: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT",
+    "fundamental_analysis": "基本面分析过程中出现错误: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT",
+    "technical_analysis": "基于获取的数据，我现在为您进行茅台（sh.600519）的技术指标分析：\n\n## 贵州茅台（sh.600519）技术分析报告\n\n### 1. 股票基本信息\n- **股票代码**: sh.600519\n- **股票名称**: 贵州茅台\n- **上市日期**: 2001-08-27\n- **当前状态**: 正常交易\n\n### 2. 最新价格数据（截至2026年1月30日）\n- **最新收盘价**: 10,496.2元\n- **当日涨跌幅**: -2.554%\n- **当日成交量**: 9,447,974手\n- **当日成交额**: 133.66亿元\n\n### 3. 价格趋势分析\n\n#### 近期走势（2025年7月-2026年1月）：\n1. **2025年7-8月**: 股价在10,300-11,000元区间震荡\n2. **2025年8月下旬**: 出现一波上涨，最高达到11,020.3元（8月25日）\n3. **2025年9-10月**: 在10,500-11,300元区间震荡\n4. **2025年11月**: 再次上涨至10,900元附近\n5. **2025年12月**: 开始下跌趋势，从10,600元跌至10,300元\n6. **2026年1月**: 剧烈波动，1月29日大涨8.61%至10,771.4元，但次日大跌2.55%\n\n#### 关键价格水平：\n- **年内最高价**: 11,762.3元（2025年3月14日）\n- **年内最低价**: 9,917.04元（2026年1月28日）\n- **当前价格**: 10,496.2元，处于年内相对低位\n\n### 4. 成交量分析\n\n#### 成交量特征：\n1. **平均成交量**: 约300-500万手/日\n2. **放量情况**:\n   - 2026年1月29日：18,953,440手（异常放量）\n   - 2026年1月5日：7,094,942手\n   - 2025年8月13日：6,552,754手\n3. **缩量情况**: 多数交易日成交量在200-400万手区间\n\n#### 量价关系：\n- **价涨量增**: 1月29日大涨伴随巨量，显示买盘强劲\n- **价跌量缩**: 近期下跌时成交量相对温和\n- **异常放量**: 1月底的巨量交易值得关注，可能预示方向性变化\n\n### 5. 技术指标计算与分析\n\n基于数据计算的主要技术指标：\n\n#### 移动平均线（MA）：\n- **MA5（5日均线）**: 约10,500元（短期趋势）\n- **MA10（10日均线）**: 约10,400元\n- **MA20（20日均线）**: 约10,300元\n- **MA60（60日均线）**: 约10,600元（中长期趋势）\n\n**分析**: 当前价格在短期均线附近，但低于60日均线，显示中期趋势偏弱。\n\n#### 相对强弱指数（RSI）估算：\n基于近期价格变化计算：\n- 近期涨跌幅度较大，RSI可能在40-60区间\n- 1月29日大涨后RSI可能进入超买区域\n- 1月30日大跌后RSI可能回落至中性区域\n\n#### MACD分析：\n- 需要计算12日EMA、26日EMA和9日DEA\n- 从价格走势看，MACD可能处于零轴附近震荡\n- 近期大幅波动可能导致MACD信号线频繁交叉\n\n### 6. 支撑位和阻力位识别\n\n#### 主要支撑位：\n1. **强支撑**: 10,000元整数关口（心理支撑）\n2. **次级支撑**: 9,900-10,000元（近期低点区域）\n3. **技术支撑**: 9,800元（前期密集成交区）\n\n#### 主要阻力位：\n1. **近期阻力**: 10,800-11,000元（前期高点区域）\n2. **强阻力**: 11,300元（2025年9-10月高点）\n3. **长期阻力**: 11,700元（年内最高点）\n\n### 7. 技术形态分析\n\n#### 当前形态：\n1. **宽幅震荡**: 2025年下半年以来在9,900-11,300元区间震荡\n2. **三角形整理**: 近期高低点逐渐收敛，可能形成三角形整理形态\n3. **突破尝试**: 1月29日尝试向上突破，但未能持续\n\n#### 关键观察点：\n- **向上突破**: 需要站稳10,800元以上\n- **向下突破**: 跌破9,900元可能打开下跌空间\n\n### 8. 技术面总结和短期走势判断\n\n#### 技术面总结：\n1. **趋势状态**: 中期震荡偏弱，短期剧烈波动\n2. **成交量**: 近期出现异常放量，需关注后续量能变化\n3. **技术指标**: 均线系统呈空头排列，但短期有反弹迹象\n4. **价格位置**: 处于年内相对低位，有一定安全边际\n\n#### 短期走势判断：\n1. **乐观情景**: 如能守住10,000元支撑，可能向10,600-10,800元反弹\n2. **中性情景**: 在10,000-10,800元区间继续震荡整理\n3. **悲观情景**: 如跌破9,900元支撑，可能下探9,500-9,700元区域\n\n#### 关键观察信号：\n1. **向上信号**: 连续3日收盘在10,600元以上，成交量温和放大\n2. **向下信号**: 跌破9,900元且成交量放大\n3. **震荡信号**: 在10,000-10,600元区间窄幅整理\n\n### 9. 风险提示\n1. **波动风险**: 近期股价波动剧烈，单日涨跌幅较大\n2. **量能风险**: 异常放量后的持续性需要观察\n3. **技术风险**: 均线系统呈空头排列，中期趋势偏弱\n4. **支撑风险**: 10,000元整数关口如被有效跌破，可能引发技术性抛压\n\n**注**: 以上分析基于历史价格数据和技术指标，不构成投资建议。投资者应结合基本面分析和自身风险承受能力做出投资决策。",
+    "value_analysis_error": "Error in MCP or agent execution: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT",
+    "value_analysis": "估值分析过程中出现错误: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT"
+  },
+  "success": false,
+  "error": "Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT"
+}

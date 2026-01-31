@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2026-01-31T21:43:46.282968",
+  "start_timestamp": 1769867026.282968,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-31T21:46:30.715200",
+  "end_timestamp": 1769867190.7152,
+  "execution_time_seconds": 164.39098143577576,
+  "output_data": {
+    "news_analysis_length": 2728,
+    "analysis_preview": "基于以上收集到的新闻数据和股价信息，我现在为您提供茅台（sh.600519）的全面新闻分析报告：\n\n# 贵州茅台（sh.600519）新闻分析报告\n**分析日期：2026年1月31日**\n\n## 一、新闻数据收集与分析\n\n### 1. 主要新闻事件汇总\n\n**关键新闻1：2026年市场化运营方案公布**\n- **内容概要**：茅台发布《2026年贵州茅台酒市场化运营方案》，从\"控量挺价\"转向\"随行就市\"\n- **情感分析**：4分（正面）\n- **风险评估**：2分（低风险）\n- **分析**：这一改革标志着茅台更加市场化的经营策略，有利于长期健康发展\n\n**关键新闻2：i茅台平台2026年产品价格体系**\n- **内容概要**：i茅台平台公布2026年产品价格，500ml飞天茅台定价1499元/瓶\n- **情感分析**：4分（正面）\n- **风险评估**：2分（低风险）\n- **分析**：价格体系透明化，让飞天茅台回归\"平价\"定位，有利于品牌形象和消费者关系\n\n**关键新闻3：2026年业绩预测与分析**\n- **内容概要**：多家机构发布2026年业绩预测，市场对茅台业绩保持乐观\n",
+    "llm_execution_time": 162.83797073364258,
+    "total_execution_time": 164.39098143577576
+  },
+  "success": true,
+  "error": null
+}

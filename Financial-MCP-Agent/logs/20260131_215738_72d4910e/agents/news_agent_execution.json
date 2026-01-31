@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2026-01-31T21:57:39.213776",
+  "start_timestamp": 1769867859.2137764,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-31T21:59:28.134915",
+  "end_timestamp": 1769867968.1349156,
+  "execution_time_seconds": 108.90244126319885,
+  "output_data": {
+    "news_analysis_length": 2289,
+    "analysis_preview": "基于我收集到的新闻信息和股价数据，现在为您提供茅台（sh.600519）的全面新闻分析：\n\n## 贵州茅台（sh.600519）新闻分析报告\n**分析日期：2026年1月31日**\n\n### 1. 爬取的最新新闻摘要\n\n基于搜索结果，我识别出以下关键新闻事件：\n\n1. **飞天茅台价格跳涨**（2026年1月30日）\n   - 2026年飞天茅台原装价格涨至1770元/瓶，单日上涨160元\n   - 散瓶价格涨至1700元/瓶，上涨130元\n   - 2025年飞天原箱也上涨150元\n\n2. **白酒板块集体异动**（2026年1月29-30日）\n   - 1月29日白酒板块几乎全部涨停，茅台大涨近9%\n   - 1月30日板块集体回调，茅台跌超2%\n\n3. **茅台改革与渠道升级**\n   - 茅台正在引领白酒价格重塑\n   - 行业发生重大变化，推动渠道升级和突破\n   - 茅台积极拥抱消费者，进行销售控制权博弈\n\n4. **业绩预期与财务数据**\n   - 2025年全年财务数据尚未正式披露\n   - 2024年预计净利润857亿元，同比增长14.67%\n   - 2023年净利",
+    "llm_execution_time": 107.33200025558472,
+    "total_execution_time": 108.90244126319885
+  },
+  "success": true,
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2026-01-30T12:56:58.379454",
+  "start_timestamp": 1769749018.3794546,
+  "input_data": {
+    "user_query": "分析比亚迪(002594)",
+    "stock_code": "sz.002594",
+    "company_name": "比亚迪",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-30T12:59:28.513839",
+  "end_timestamp": 1769749168.5138397,
+  "execution_time_seconds": 150.09749054908752,
+  "output_data": {
+    "value_analysis_length": 2277,
+    "analysis_preview": "基于以上获取的数据，我现在为您提供比亚迪（sz.002594）的全面估值分析报告：\n\n## 比亚迪（sz.002594）估值分析报告\n**分析日期：2026年1月30日**\n\n### 1. 公司基本信息\n- **股票代码**：sz.002594\n- **公司名称**：比亚迪\n- **所属行业**：C36汽车制造业（证监会行业分类）\n- **上市日期**：2011年6月30日\n- **当前状态**：正常交易中\n\n### 2. 当前估值指标分析（基于最新数据）\n\n#### 最新股价数据（2026年1月13日）：\n- **收盘价**：97.19元\n- **市盈率（PE TTM）**：23.11倍\n- **市净率（PB MRQ）**：4.03倍\n- **市销率（PS TTM）**：1.05倍\n\n#### 2024年财务数据：\n- **每股收益（EPS TTM）**：13.84元\n- **净资产收益率（ROE）**：24.84%\n- **净利润率**：5.35%\n- **毛利率**：19.44%\n- **营业收入**：7,771.02亿元\n- **净利润**：415.88亿元\n- **总股本**",
+    "llm_execution_time": 141.7922089099884,
+    "total_execution_time": 150.09749054908752
+  },
+  "success": true,
+  "error": null
+}

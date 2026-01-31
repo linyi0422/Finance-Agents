@@ -1,0 +1,14 @@
+
+        # Analysis Report for 比亚迪 (sz.002594)
+        
+        **Error encountered during report generation**: Connection error.
+        
+        ## Available Analysis Fragments:
+        
+        - Fundamental Analysis: Available
+        - Technical Analysis: Available
+        - Value Analysis: Available
+        - News Analysis: Available
+        
+        Please review the individual analyses directly for more information.
+        

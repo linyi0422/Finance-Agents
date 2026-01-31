@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2026-01-31T22:01:43.269666",
+  "start_timestamp": 1769868103.2696662,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-31T22:02:58.658664",
+  "end_timestamp": 1769868178.6586645,
+  "execution_time_seconds": 75.37836384773254,
+  "output_data": {
+    "news_analysis_length": 2120,
+    "analysis_preview": "基于获取的新闻数据，我现在为您提供茅台（sh.600519）的全面新闻分析：\n\n## 茅台（sh.600519）新闻分析报告\n**分析日期：2026年1月31日**\n\n### 1. 爬取的最新新闻摘要\n\n从搜索结果中，我识别出以下关键新闻主题：\n\n1. **价格体系改革新闻**：\n   - \"i茅台公布2026年产品价格体系 普茅定价1499元/瓶\"\n   - \"普茅飞入百姓家，2026年贵州茅台'变'了\"\n\n2. **市场化改革新闻**：\n   - \"贵州茅台酒2026年市场化运营方案公布\"\n   - \"贵州茅台(600519):2026年推进市场化改革 I茅台春节前加大投放\"\n\n3. **业绩预测与分析**：\n   - \"$贵州茅台(SH600519)$2026年业绩预测\"\n   - \"贵州茅台2026年业绩分析与预测\"\n\n4. **渠道改革新闻**：\n   - \"贵州茅台2026年渠道改革与配额调整分析\"\n   - \"直击茅台酒经销商联谊会:2026年维护量价动态平衡\"\n\n### 2. 新闻情感分析（1-5分）\n\n基于新闻标题和内容分析：\n\n1. **价格体系改革新闻**：**4",
+    "llm_execution_time": 73.8351788520813,
+    "total_execution_time": 75.37836384773254
+  },
+  "success": true,
+  "error": null
+}

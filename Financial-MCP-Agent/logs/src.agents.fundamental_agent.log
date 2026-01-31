@@ -1,0 +1,406 @@
+2026-01-30 00:35:38 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2026-01-30 00:35:38 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-30 00:35:41 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2026-01-30 00:35:53 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2026-01-30 00:35:53 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2026-01-30 00:35:53 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2026-01-30 00:35:53 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2026年01月30日 (2026-01-30) 星期五 00:35:38
+当前日期：2026-01-30
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2026-01-30 00:35:53 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2026-01-30 00:38:06 - src.agents.fundamental_agent - ERROR - ✗ FundamentalAgent: Error in MCP or agent execution: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+Traceback (most recent call last):
+  File "c:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\agents\fundamental_agent.py", line 169, in fundamental_agent
+    response = await agent.ainvoke(input_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\main.py", line 3112, in ainvoke
+    async for chunk in self.astream(
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\main.py", line 2977, in astream
+    raise GraphRecursionError(msg)
+langgraph.errors.GraphRecursionError: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+2026-01-30 12:56:54 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2026-01-30 12:56:54 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-30 12:56:58 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2026-01-30 12:57:06 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2026-01-30 12:57:06 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2026-01-30 12:57:06 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2026-01-30 12:57:06 - src.agents.fundamental_agent - INFO - Agent input: 请分析比亚迪（股票代码：sz.002594）的基本面情况。
+
+当前时间：2026年01月30日 (2026-01-30) 星期五 12:56:54
+当前日期：2026-01-30
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2026-01-30 12:57:06 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2026-01-30 12:59:00 - src.agents.fundamental_agent - ERROR - ✗ FundamentalAgent: Error in MCP or agent execution: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+Traceback (most recent call last):
+  File "c:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\agents\fundamental_agent.py", line 169, in fundamental_agent
+    response = await agent.ainvoke(input_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\main.py", line 3112, in ainvoke
+    async for chunk in self.astream(
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\main.py", line 2977, in astream
+    raise GraphRecursionError(msg)
+langgraph.errors.GraphRecursionError: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+2026-01-31 13:26:28 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2026-01-31 13:26:28 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 13:26:29 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2026-01-31 13:26:29 - src.agents.fundamental_agent - ERROR - ✗ FundamentalAgent: No MCP tools available.
+2026-01-31 15:47:36 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2026-01-31 15:47:36 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 15:47:37 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2026-01-31 15:47:38 - src.agents.fundamental_agent - ERROR - ✗ FundamentalAgent: No MCP tools available.
+2026-01-31 15:50:21 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2026-01-31 15:50:21 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 15:50:23 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2026-01-31 15:50:23 - src.agents.fundamental_agent - ERROR - ✗ FundamentalAgent: No MCP tools available.
+2026-01-31 16:06:15 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2026-01-31 16:06:15 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 16:06:17 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2026-01-31 16:06:18 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2026-01-31 16:06:18 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2026-01-31 16:06:18 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2026-01-31 16:06:18 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2026年01月31日 (2026-01-31) 星期六 16:06:15
+当前日期：2026-01-31
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2026-01-31 16:06:18 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2026-01-31 16:08:36 - src.agents.fundamental_agent - ERROR - ✗ FundamentalAgent: Error in MCP or agent execution: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\agents\fundamental_agent.py", line 169, in fundamental_agent
+    response = await agent.ainvoke(input_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\main.py", line 3112, in ainvoke
+    async for chunk in self.astream(
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\main.py", line 2977, in astream
+    raise GraphRecursionError(msg)
+langgraph.errors.GraphRecursionError: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+2026-01-31 16:21:50 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2026-01-31 16:21:50 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 16:21:55 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2026-01-31 16:21:55 - src.agents.fundamental_agent - ERROR - ✗ FundamentalAgent: No MCP tools available.
+2026-01-31 21:29:30 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2026-01-31 21:29:30 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 21:29:34 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2026-01-31 21:29:45 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2026-01-31 21:29:45 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2026-01-31 21:29:45 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2026-01-31 21:29:45 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2026年01月31日 (2026-01-31) 星期六 21:29:30
+当前日期：2026-01-31
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2026-01-31 21:29:45 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2026-01-31 21:30:02 - src.agents.fundamental_agent - ERROR - ✗ FundamentalAgent: Error in MCP or agent execution: Connection error.
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http_proxy.py", line 316, in handle_async_request
+    stream = await stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 376, in start_tls
+    return await self._stream.start_tls(ssl_context, server_hostname, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_backends\anyio.py", line 67, in start_tls
+    with map_exceptions(exc_map):
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\agents\fundamental_agent.py", line 169, in fundamental_agent
+    response = await agent.ainvoke(input_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\main.py", line 3112, in ainvoke
+    async for chunk in self.astream(
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\main.py", line 2939, in astream
+    async for _ in runner.atick(
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\_runner.py", line 295, in atick
+    await arun_with_retry(
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\_retry.py", line 137, in arun_with_retry
+    return await task.proc.ainvoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\_internal\_runnable.py", line 706, in ainvoke
+    input = await asyncio.create_task(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\_internal\_runnable.py", line 465, in ainvoke
+    ret = await asyncio.create_task(coro, context=context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\prebuilt\chat_agent_executor.py", line 663, in acall_model
+    response = cast(AIMessage, await static_model.ainvoke(model_input, config))  # type: ignore[union-attr]
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\runnables\base.py", line 3091, in ainvoke
+    input_ = await coro_with_context(part(), context, create_task=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\runnables\base.py", line 5454, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 405, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1017, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 975, in agenerate
+    raise exceptions[0]
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1145, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_openai\chat_models\base.py", line 1414, in _agenerate
+    response = await self.async_client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+During task with name 'agent' and id 'fc51fc9e-0735-a26a-feaa-c9cf769d2255'
+2026-01-31 21:43:44 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2026-01-31 21:43:44 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 21:43:46 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2026-01-31 21:43:47 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2026-01-31 21:43:47 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2026-01-31 21:43:47 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2026-01-31 21:43:47 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2026年01月31日 (2026-01-31) 星期六 21:43:44
+当前日期：2026-01-31
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2026-01-31 21:43:47 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2026-01-31 21:45:47 - src.agents.fundamental_agent - ERROR - ✗ FundamentalAgent: Error in MCP or agent execution: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\agents\fundamental_agent.py", line 169, in fundamental_agent
+    response = await agent.ainvoke(input_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\main.py", line 3112, in ainvoke
+    async for chunk in self.astream(
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\main.py", line 2977, in astream
+    raise GraphRecursionError(msg)
+langgraph.errors.GraphRecursionError: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+2026-01-31 21:57:38 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2026-01-31 21:57:38 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 21:57:39 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2026-01-31 21:57:40 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2026-01-31 21:57:40 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2026-01-31 21:57:40 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2026-01-31 21:57:40 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2026年01月31日 (2026-01-31) 星期六 21:57:38
+当前日期：2026-01-31
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2026-01-31 21:57:40 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2026-01-31 21:59:00 - src.agents.fundamental_agent - ERROR - ✗ FundamentalAgent: Error in MCP or agent execution: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\agents\fundamental_agent.py", line 169, in fundamental_agent
+    response = await agent.ainvoke(input_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\main.py", line 3112, in ainvoke
+    async for chunk in self.astream(
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\main.py", line 2977, in astream
+    raise GraphRecursionError(msg)
+langgraph.errors.GraphRecursionError: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+2026-01-31 22:01:42 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2026-01-31 22:01:42 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 22:01:43 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2026-01-31 22:01:44 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2026-01-31 22:01:44 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2026-01-31 22:01:44 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2026-01-31 22:01:44 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2026年01月31日 (2026-01-31) 星期六 22:01:42
+当前日期：2026-01-31
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2026-01-31 22:01:44 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2026-01-31 22:03:06 - src.agents.fundamental_agent - ERROR - ✗ FundamentalAgent: Error in MCP or agent execution: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\agents\fundamental_agent.py", line 169, in fundamental_agent
+    response = await agent.ainvoke(input_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\main.py", line 3112, in ainvoke
+    async for chunk in self.astream(
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\main.py", line 2977, in astream
+    raise GraphRecursionError(msg)
+langgraph.errors.GraphRecursionError: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+2026-01-31 22:28:48 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2026-01-31 22:28:48 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 22:28:50 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2026-01-31 22:28:51 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2026-01-31 22:28:51 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2026-01-31 22:28:51 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2026-01-31 22:28:51 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2026年01月31日 (2026-01-31) 星期六 22:28:48
+当前日期：2026-01-31
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2026-01-31 22:28:51 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2026-01-31 22:30:43 - src.agents.fundamental_agent - ERROR - ✗ FundamentalAgent: Error in MCP or agent execution: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\agents\fundamental_agent.py", line 169, in fundamental_agent
+    response = await agent.ainvoke(input_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\main.py", line 3112, in ainvoke
+    async for chunk in self.astream(
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langgraph\pregel\main.py", line 2977, in astream
+    raise GraphRecursionError(msg)
+langgraph.errors.GraphRecursionError: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT

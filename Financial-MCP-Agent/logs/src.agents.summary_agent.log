@@ -1,0 +1,517 @@
+2026-01-30 00:39:04 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2026-01-30 00:39:04 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2026-01-30 00:39:04 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2026-01-30 00:39:04 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-30 00:41:43 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Connection error.
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 271, in __aiter__
+    async for part in self._httpcore_stream:
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\connection_pool.py", line 407, in __aiter__
+    raise exc from None
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\connection_pool.py", line 403, in __aiter__
+    async for part in self._stream:
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 342, in __aiter__
+    raise exc
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 334, in __aiter__
+    async for chunk in self._connection._receive_response_body(**kwargs):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 203, in _receive_response_body
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 213, in _receive_event
+    with map_exceptions({h11.RemoteProtocolError: RemoteProtocolError}):
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 1643, in send
+    raise exc
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 1637, in send
+    await response.aread()
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_models.py", line 979, in aread
+    self._content = b"".join([part async for part in self.aiter_bytes()])
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_models.py", line 979, in <listcomp>
+    self._content = b"".join([part async for part in self.aiter_bytes()])
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_models.py", line 997, in aiter_bytes
+    async for raw_bytes in self.aiter_raw():
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_models.py", line 1055, in aiter_raw
+    async for raw_stream_bytes in self.stream:
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 176, in __aiter__
+    async for chunk in self._stream:
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 270, in __aiter__
+    with map_httpcore_exceptions():
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\agents\summary_agent.py", line 414, in summary_agent
+    llm_message = await llm.ainvoke(summary_prompt_messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 405, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1017, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 975, in agenerate
+    raise exceptions[0]
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1145, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_openai\chat_models\base.py", line 1414, in _agenerate
+    response = await self.async_client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+2026-01-30 00:41:43 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to c:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\error_report_茅台_600519_20260130_004143.md
+2026-01-30 12:59:29 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2026-01-30 12:59:29 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2026-01-30 12:59:29 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2026-01-30 12:59:29 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-30 13:02:15 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Connection error.
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 271, in __aiter__
+    async for part in self._httpcore_stream:
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\connection_pool.py", line 407, in __aiter__
+    raise exc from None
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\connection_pool.py", line 403, in __aiter__
+    async for part in self._stream:
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 342, in __aiter__
+    raise exc
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 334, in __aiter__
+    async for chunk in self._connection._receive_response_body(**kwargs):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 203, in _receive_response_body
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 213, in _receive_event
+    with map_exceptions({h11.RemoteProtocolError: RemoteProtocolError}):
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 1643, in send
+    raise exc
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 1637, in send
+    await response.aread()
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_models.py", line 979, in aread
+    self._content = b"".join([part async for part in self.aiter_bytes()])
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_models.py", line 979, in <listcomp>
+    self._content = b"".join([part async for part in self.aiter_bytes()])
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_models.py", line 997, in aiter_bytes
+    async for raw_bytes in self.aiter_raw():
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_models.py", line 1055, in aiter_raw
+    async for raw_stream_bytes in self.stream:
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 176, in __aiter__
+    async for chunk in self._stream:
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 270, in __aiter__
+    with map_httpcore_exceptions():
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\agents\summary_agent.py", line 414, in summary_agent
+    llm_message = await llm.ainvoke(summary_prompt_messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 405, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1017, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 975, in agenerate
+    raise exceptions[0]
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1145, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_openai\chat_models\base.py", line 1414, in _agenerate
+    response = await self.async_client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+2026-01-30 13:02:16 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to c:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\error_report_比亚迪_002594_20260130_130216.md
+2026-01-31 13:26:30 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2026-01-31 13:26:30 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2026-01-31 13:26:30 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2026-01-31 13:26:30 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 13:28:28 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 73
+2026-01-31 13:28:28 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2026-01-31 13:28:28 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台 (sh.600519) 综合分析报告
+
+**分析基准时间：2026年01月31日 (2026-01-31) 星期六 13:26:28**...
+2026-01-31 13:28:28 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\report_茅台_600519_20260131_132828.md
+2026-01-31 15:47:38 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2026-01-31 15:47:38 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2026-01-31 15:47:38 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2026-01-31 15:47:38 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 15:48:31 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 2939
+2026-01-31 15:48:31 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2026-01-31 15:48:31 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台 (sh.600519) 综合分析报告
+
+**分析基准日期：2026年01月31日 (2026-01-31) 星期六 15:47:36**
+
+## 执行摘要
+基于当前（2026年1月31日）的分析，由于无法获取贵州茅台最新的基本面、技术面、估值及新闻数据，本报告无法提供基于量化数据的精确投资建议。贵州茅台作为中国高端白酒的绝对龙头，其品牌护城河深厚、商业模式优秀，长期投资价值被市场广泛认可。然而，在缺乏最新财务数据、股价走势、估值水平和市场情绪信息的情况下，任何投资决策都面临极高的不确定性。**风险等级：无法评估（因数据缺失）。预期回报：无法评估。** 投资者在决策前，必须自行获取...
+2026-01-31 15:48:31 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\report_茅台_600519_20260131_154831.md
+2026-01-31 15:50:23 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2026-01-31 15:50:23 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2026-01-31 15:50:23 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2026-01-31 15:50:23 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 15:51:15 - src.agents.summary_agent - INFO - 截断报告在时间信息行之后，截断位置: 75
+2026-01-31 15:51:15 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2026-01-31 15:51:15 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台 (sh.600519) 综合分析报告
+
+**分析基准日期：2026年01月31日 (2026-01-31) 星期六 15:50:21**...
+2026-01-31 15:51:15 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\report_茅台_600519_20260131_155115.md
+2026-01-31 16:09:18 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2026-01-31 16:09:18 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2026-01-31 16:09:18 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2026-01-31 16:09:18 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 16:12:06 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Connection error.
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 271, in __aiter__
+    async for part in self._httpcore_stream:
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\connection_pool.py", line 407, in __aiter__
+    raise exc from None
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\connection_pool.py", line 403, in __aiter__
+    async for part in self._stream:
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 342, in __aiter__
+    raise exc
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 334, in __aiter__
+    async for chunk in self._connection._receive_response_body(**kwargs):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 203, in _receive_response_body
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 213, in _receive_event
+    with map_exceptions({h11.RemoteProtocolError: RemoteProtocolError}):
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 1643, in send
+    raise exc
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 1637, in send
+    await response.aread()
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_models.py", line 979, in aread
+    self._content = b"".join([part async for part in self.aiter_bytes()])
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_models.py", line 979, in <listcomp>
+    self._content = b"".join([part async for part in self.aiter_bytes()])
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_models.py", line 997, in aiter_bytes
+    async for raw_bytes in self.aiter_raw():
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_models.py", line 1055, in aiter_raw
+    async for raw_stream_bytes in self.stream:
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 176, in __aiter__
+    async for chunk in self._stream:
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 270, in __aiter__
+    with map_httpcore_exceptions():
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\agents\summary_agent.py", line 414, in summary_agent
+    llm_message = await llm.ainvoke(summary_prompt_messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 405, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1017, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 975, in agenerate
+    raise exceptions[0]
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1145, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_openai\chat_models\base.py", line 1414, in _agenerate
+    response = await self.async_client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+2026-01-31 16:12:06 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\error_report_茅台_600519_20260131_161206.md
+2026-01-31 16:21:55 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2026-01-31 16:21:55 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2026-01-31 16:21:55 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2026-01-31 16:21:55 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 16:22:51 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 3073
+2026-01-31 16:22:51 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2026-01-31 16:22:51 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台 (sh.600519) 综合分析报告
+
+**分析基准日期：2026年01月31日 (2026-01-31) 星期六 16:21:50**
+
+## 执行摘要
+基于截至2026年1月31日的公开信息，本报告旨在对贵州茅台进行框架性分析。由于本次分析请求未能获取到具体的财务、技术、估值及新闻数据，报告将主要基于贵州茅台作为中国高端白酒龙头的普遍认知和行业地位进行结构性阐述。贵州茅台拥有强大的品牌护城河、稀缺的产能和定价权，长期被视为A股市场的核心资产。然而，其当前估值水平、短期业绩增速、市场情绪及技术走势等关键投资决策要素，在本报告中无法进行量化评估。因此，**无法提供明确的投资建议、...
+2026-01-31 16:22:51 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\report_茅台_600519_20260131_162251.md
+2026-01-31 21:30:02 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2026-01-31 21:30:02 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2026-01-31 21:30:02 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2026-01-31 21:30:02 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 21:30:18 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Connection error.
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http_proxy.py", line 316, in handle_async_request
+    stream = await stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 376, in start_tls
+    return await self._stream.start_tls(ssl_context, server_hostname, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_backends\anyio.py", line 67, in start_tls
+    with map_exceptions(exc_map):
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\agents\summary_agent.py", line 414, in summary_agent
+    llm_message = await llm.ainvoke(summary_prompt_messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 405, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1017, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 975, in agenerate
+    raise exceptions[0]
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1145, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_openai\chat_models\base.py", line 1414, in _agenerate
+    response = await self.async_client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+2026-01-31 21:30:18 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\error_report_茅台_600519_20260131_213018.md
+2026-01-31 21:46:30 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2026-01-31 21:46:30 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2026-01-31 21:46:30 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2026-01-31 21:46:30 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 21:49:13 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Connection error.
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 271, in __aiter__
+    async for part in self._httpcore_stream:
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\connection_pool.py", line 407, in __aiter__
+    raise exc from None
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\connection_pool.py", line 403, in __aiter__
+    async for part in self._stream:
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 342, in __aiter__
+    raise exc
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 334, in __aiter__
+    async for chunk in self._connection._receive_response_body(**kwargs):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 203, in _receive_response_body
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_async\http11.py", line 213, in _receive_event
+    with map_exceptions({h11.RemoteProtocolError: RemoteProtocolError}):
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 1643, in send
+    raise exc
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 1637, in send
+    await response.aread()
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_models.py", line 979, in aread
+    self._content = b"".join([part async for part in self.aiter_bytes()])
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_models.py", line 979, in <listcomp>
+    self._content = b"".join([part async for part in self.aiter_bytes()])
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_models.py", line 997, in aiter_bytes
+    async for raw_bytes in self.aiter_raw():
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_models.py", line 1055, in aiter_raw
+    async for raw_stream_bytes in self.stream:
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_client.py", line 176, in __aiter__
+    async for chunk in self._stream:
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 270, in __aiter__
+    with map_httpcore_exceptions():
+  File "C:\ProgramData\anaconda3\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\ProgramData\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\src\agents\summary_agent.py", line 414, in summary_agent
+    llm_message = await llm.ainvoke(summary_prompt_messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 405, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1017, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 975, in agenerate
+    raise exceptions[0]
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1145, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\langchain_openai\chat_models\base.py", line 1414, in _agenerate
+    response = await self.async_client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+2026-01-31 21:49:13 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\error_report_茅台_600519_20260131_214913.md
+2026-01-31 21:59:33 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2026-01-31 21:59:33 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2026-01-31 21:59:33 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2026-01-31 21:59:33 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 22:00:49 - src.agents.summary_agent - INFO - 截断报告在时间信息行之后，截断位置: 75
+2026-01-31 22:00:49 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2026-01-31 22:00:49 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台 (sh.600519) 综合分析报告
+
+**分析基准日期：2026年01月31日 (2026-01-31) 星期六 21:57:38**...
+2026-01-31 22:00:49 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\report_茅台_600519_20260131_220049.md
+2026-01-31 22:03:11 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2026-01-31 22:03:11 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2026-01-31 22:03:11 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2026-01-31 22:03:11 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model deepseek-chat
+2026-01-31 22:04:18 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 3665
+2026-01-31 22:04:18 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2026-01-31 22:04:18 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台(sh.600519) 综合分析报告
+
+**分析基准日期：2026年01月31日 (2026-01-31) 星期六 22:01:42**
+
+## 执行摘要
+基于截至2026年1月31日的技术分析与新闻分析，贵州茅台当前股价处于近一年来的相对低位，技术面呈现短期下降趋势。公司正积极推进价格体系与渠道市场化改革，旨在扩大消费基础并优化运营，长期战略方向明确。然而，基本面与估值数据因技术原因暂时缺失，需结合后续财报进行验证。综合来看，公司强大的品牌护城河和积极的改革举措构成长期利好，但短期面临技术面调整和改革阵痛期的压力。
+
+**风险等级：中等**（主要风险来自改革执行效果、宏观经济对高...
+2026-01-31 22:04:18 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to C:\Users\nings\Downloads\股票投资顾问Agent\Finance\Financial-MCP-Agent\reports\report_茅台_600519_20260131_220418.md
+2026-01-31 22:31:52 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2026-01-31 22:31:52 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2026-01-31 22:31:52 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2026-01-31 22:31:52 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model deepseek-chat

@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2026-01-31T16:06:17.093158",
+  "start_timestamp": 1769846777.0931585,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-31T16:09:18.503322",
+  "end_timestamp": 1769846958.5033221,
+  "execution_time_seconds": 181.37612748146057,
+  "output_data": {
+    "news_analysis_length": 2398,
+    "analysis_preview": "基于我收集到的新闻数据和股价信息，现在为您提供茅台（sh.600519）的全面新闻分析：\n\n# 贵州茅台（sh.600519）新闻分析报告\n**分析日期：2026年1月31日**\n\n## 1. 新闻爬取与分析\n\n### 主要新闻事件：\n\n**新闻1：2026年贵州茅台酒全国经销商联谊会召开**\n- **内容概要**：2025年12月28日，茅台在贵阳召开2026年全国经销商联谊会，主题为\"坚持以消费者为中心，全面推进茅台酒营销市场化转型\"。会议首次邀请全体渠道商1500余人出席，规模空前。\n- **情感分析**：4分（正面）\n- **风险评估**：2分（低风险）\n- **分析**：这表明茅台正在积极推动营销体系改革，从依赖稀缺性转向以消费者为中心的市场化运营，长期看有利于品牌健康发展。\n\n**新闻2：茅台锚定\"以消费者为中心\"的市场化变革新程**\n- **内容概要**：茅台明确将\"以消费者为中心、推进市场化转型\"作为2026年市场营销工作的首要任务，旨在通过改革让消费者公平、快捷、保真地购买茅台酒。\n- **情感分析**：4分（正面）\n- **风险评估**：2分（低风险）\n- **分析",
+    "llm_execution_time": 179.8250651359558,
+    "total_execution_time": 181.37612748146057
+  },
+  "success": true,
+  "error": null
+}

@@ -1,0 +1,42 @@
+{
+  "agent_name": "summary_agent",
+  "start_time": "2026-01-31T13:26:30.063441",
+  "start_timestamp": 1769837190.0634415,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "available_analyses": {
+      "fundamental": false,
+      "technical": false,
+      "value": false,
+      "news": false
+    },
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code",
+      "fundamental_analysis_error",
+      "news_analysis_error",
+      "technical_analysis_error",
+      "value_analysis_error"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-31T13:28:28.135521",
+  "end_timestamp": 1769837308.1355217,
+  "execution_time_seconds": 118.06002759933472,
+  "output_data": {
+    "final_report_length": 75,
+    "report_path": "C:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\Financial-MCP-Agent\\reports\\report_茅台_600519_20260131_132828.md",
+    "report_preview": "# 贵州茅台 (sh.600519) 综合分析报告\n\n**分析基准时间：2026年01月31日 (2026-01-31) 星期六 13:26:28**",
+    "llm_execution_time": 118.05169367790222,
+    "total_execution_time": 118.06002759933472
+  },
+  "success": true,
+  "error": null
+}

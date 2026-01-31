@@ -1,0 +1,26 @@
+{
+  "execution_id": "20260131_221520_cd090869",
+  "start_time": "2026-01-31T22:15:20.251617",
+  "start_timestamp": 1769868920.251617,
+  "environment": {
+    "python_version": "3.11.5 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:26:23) [MSC v.1916 64 bit (AMD64)]",
+    "working_directory": "C:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\Financial-MCP-Agent",
+    "environment_variables": {
+      "OPENAI_COMPATIBLE_MODEL": "deepseek-chat",
+      "OPENAI_COMPATIBLE_BASE_URL": "https://api.deepseek.com/v1",
+      "OPENAI_COMPATIBLE_API_KEY": "***"
+    }
+  },
+  "end_time": "2026-01-31T22:15:20.271853",
+  "end_timestamp": 1769868920.254657,
+  "total_execution_time_seconds": 0.0030400753021240234,
+  "success": false,
+  "error": "StateGraph.compile() got an unexpected keyword argument 'recursion_limit'",
+  "status": "failed",
+  "summary": {
+    "agents_executed": [],
+    "llm_interactions_count": 0,
+    "tools_used_count": 0,
+    "total_files_created": 5
+  }
+}

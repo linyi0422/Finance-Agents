@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2026-01-31T22:28:50.122040",
+  "start_timestamp": 1769869730.1220405,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-31T22:31:52.739451",
+  "end_timestamp": 1769869912.7394516,
+  "execution_time_seconds": 182.58100128173828,
+  "output_data": {
+    "news_analysis_length": 2448,
+    "analysis_preview": "基于获取的新闻数据，我现在为您提供茅台（sh.600519）的全面新闻分析：\n\n## 茅台（sh.600519）新闻分析报告\n**分析日期：2026年1月31日**\n\n### 1. 最新新闻摘要\n\n基于搜索结果，我识别出以下关键新闻事件：\n\n#### 新闻1：茅台集团2026年度生产·质量大会召开\n- **内容概要**：2025年10月19日，茅台集团召开2026年度生产·质量大会，全面总结2025年生产质量经验，部署2026年工作任务\n- **情感分析**：4分（正面）\n- **风险评估**：2分（低风险）\n- **分析**：强调\"生产为基，质量为魂\"，显示公司对产品质量的高度重视，有利于长期品牌价值维护\n\n#### 新闻2：2026年茅台回归\"金字塔\"型产品体系\n- **内容概要**：2026年茅台将回归\"金字塔\"型产品体系结构，优化产品结构和价格体系\n- **情感分析**：4分（正面）\n- **风险评估**：3分（中等风险）\n- **分析**：战略调整旨在更好满足市场需求，但产品结构调整可能带来短期市场适应风险\n\n#### 新闻3：茅台发布市场化运营方案\n- **内容概要**：2",
+    "llm_execution_time": 181.04235649108887,
+    "total_execution_time": 182.58100128173828
+  },
+  "success": true,
+  "error": null
+}

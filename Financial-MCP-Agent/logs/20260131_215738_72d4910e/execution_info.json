@@ -1,0 +1,57 @@
+{
+  "execution_id": "20260131_215738_72d4910e",
+  "start_time": "2026-01-31T21:57:38.582311",
+  "start_timestamp": 1769867858.5823119,
+  "environment": {
+    "python_version": "3.11.5 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:26:23) [MSC v.1916 64 bit (AMD64)]",
+    "working_directory": "C:\\Users\\nings\\Downloads\\股票投资顾问Agent\\Finance\\Financial-MCP-Agent",
+    "environment_variables": {
+      "OPENAI_COMPATIBLE_MODEL": "deepseek-chat",
+      "OPENAI_COMPATIBLE_BASE_URL": "https://api.deepseek.com/v1",
+      "OPENAI_COMPATIBLE_API_KEY": "***"
+    }
+  },
+  "end_time": "2026-01-31T22:00:49.877894",
+  "end_timestamp": 1769868049.862903,
+  "total_execution_time_seconds": 191.28059124946594,
+  "success": true,
+  "error": null,
+  "status": "completed",
+  "summary": {
+    "agents_executed": [
+      {
+        "name": "fundamental_agent",
+        "success": false,
+        "execution_time": 81.66521739959717
+      },
+      {
+        "name": "main",
+        "success": false,
+        "execution_time": 0
+      },
+      {
+        "name": "news_agent",
+        "success": true,
+        "execution_time": 108.90244126319885
+      },
+      {
+        "name": "summary_agent",
+        "success": true,
+        "execution_time": 76.038081407547
+      },
+      {
+        "name": "technical_agent",
+        "success": true,
+        "execution_time": 78.42587566375732
+      },
+      {
+        "name": "value_agent",
+        "success": true,
+        "execution_time": 114.56754207611084
+      }
+    ],
+    "llm_interactions_count": 4,
+    "tools_used_count": 0,
+    "total_files_created": 21
+  }
+}

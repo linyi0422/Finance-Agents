@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2026-01-30T12:56:58.366318",
+  "start_timestamp": 1769749018.366319,
+  "input_data": {
+    "user_query": "分析比亚迪(002594)",
+    "stock_code": "sz.002594",
+    "company_name": "比亚迪",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-30T12:58:48.435482",
+  "end_timestamp": 1769749128.4354823,
+  "execution_time_seconds": 110.03819012641907,
+  "output_data": {
+    "news_analysis_length": 2261,
+    "analysis_preview": "基于以上数据和当前市场环境，我将为您提供比亚迪（sz.002594）的新闻分析报告：\n\n# 比亚迪（sz.002594）新闻分析报告\n**分析日期：2026年1月30日**\n\n## 1. 基于市场环境的新闻事件分析\n\n由于新闻爬取功能暂时不可用，我将基于比亚迪的财务数据、股价表现和行业趋势，分析可能影响公司的关键新闻事件：\n\n### 潜在关键新闻事件分析：\n\n**1. 2025年第三季度财务表现**\n- **事件描述**：比亚迪发布2025年第三季度财报，净利润242.3亿元，ROE为10.83%\n- **情感分析**：4分（正面）\n- **风险评估**：2分（低风险）\n- **分析**：虽然净利润同比下降7.68%，但整体盈利能力仍然强劲，ROE保持在较好水平\n\n**2. 新能源汽车市场竞争加剧**\n- **事件描述**：国内外新能源汽车品牌竞争白热化，特斯拉、蔚来、小鹏等品牌推出新车型\n- **情感分析**：3分（中性）\n- **风险评估**：3分（中等风险）\n- **分析**：市场竞争加剧可能影响市场份额，但比亚迪在技术和成本控制方面仍有优势\n\n**3. 海外市场扩张进展**\n-",
+    "llm_execution_time": 101.7828438282013,
+    "total_execution_time": 110.03819012641907
+  },
+  "success": true,
+  "error": null
+}

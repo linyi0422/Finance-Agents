@@ -1,0 +1,41 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2026-01-31T21:43:44.933817",
+  "start_timestamp": 1769867024.9338176,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2026-01-31T21:45:47.180307",
+  "end_timestamp": 1769867147.1803076,
+  "execution_time_seconds": 122.22430849075317,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "current_date": "2026-01-31",
+    "current_date_cn": "2026年01月31日",
+    "current_time": "21:43:44",
+    "current_weekday_cn": "星期六",
+    "current_time_info": "2026年01月31日 (2026-01-31) 星期六 21:43:44",
+    "analysis_timestamp": "2026-01-31T21:43:44.927205",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "technical_analysis": "基于获取的数据，我现在为您提供贵州茅台（sh.600519）的详细技术分析报告：\n\n## 贵州茅台（sh.600519）技术分析报告\n**分析日期：2026年1月31日（基于2026年1月28日最新数据）**\n\n### 1. 股票基本信息\n- **股票代码**: sh.600519\n- **股票名称**: 贵州茅台\n- **上市日期**: 2001年8月27日\n- **最新交易状态**: 正常交易（状态=1）\n- **最新交易日**: 2026年1月28日\n\n### 2. 最新价格数据（2026年1月28日）\n- **收盘价**: 9,917.04元\n- **开盘价**: 10,062.00元\n- **最高价**: 10,089.50元\n- **最低价**: 9,904.46元\n- **涨跌幅**: -1.44%\n- **成交量**: 7,621,801手\n- **成交额**: 101.35亿元\n- **换手率**: 0.61%\n\n### 3. 价格趋势分析（2025年1月-2026年1月）\n\n#### 长期趋势分析：\n1. **2025年整体走势**：\n   - 2025年初价格在10,700元左右\n   - 3月14日达到年内高点11,762.30元\n   - 随后震荡下行，6月13日跌至年内低点10,309.60元\n   - 下半年在10,000-11,000元区间震荡\n\n2. **近期走势（2025年7月-2026年1月）**：\n   - 2025年7-8月：在10,300-11,000元区间震荡\n   - 2025年9月：冲高至11,329.90元后回落\n   - 2025年10-11月：在10,500-10,900元区间震荡\n   - 2025年12月：开始下行趋势，跌破10,500元\n   - 2026年1月：加速下跌，1月28日收于9,917.04元\n\n#### 技术形态识别：\n- **头肩顶形态**：2025年3月（左肩）- 2025年9月（头部）- 2025年11月（右肩）\n- **下降通道**：自2025年9月高点以来，价格形成明显的下降通道\n- **支撑位突破**：近期跌破10,000元重要心理关口\n\n### 4. 成交量分析\n\n#### 成交量特征：\n1. **放量特征**：\n   - 2025年3月14日：成交量929万手，价格大涨5.87%\n   - 2025年4月7日：成交量1,019万手，价格大跌4.39%\n   - 2026年1月5日：成交量709万手，价格大涨3.54%\n   - 2026年1月26日：成交量801万手，价格小幅上涨\n\n2. **量价关系**：\n   - **价涨量增**：2025年3月、2026年1月5日\n   - **价跌量增**：2025年4月7日、2026年1月21-23日\n   - **近期特征**：1月下旬出现连续放量下跌，显示抛压较重\n\n### 5. 主要技术指标分析\n\n#### 移动平均线分析（基于数据计算）：\n1. **短期均线（5日、10日）**：\n   - 当前价格已跌破所有短期均线\n   - 均线呈空头排列\n\n2. **中期均线（20日、60日）**：\n   - 价格已跌破60日均线（约10,500元）\n   - 中期趋势转弱\n\n3. **长期均线（120日、250日）**：\n   - 价格接近250日均线支撑\n   - 长期趋势仍待观察\n\n#### 相对强弱指标（RSI）分析：\n- 基于近期价格走势，RSI可能已进入超卖区域（<30）\n- 显示短期下跌动能较强\n\n#### MACD指标分析：\n- 基于价格走势，MACD可能已形成死叉\n- 显示中期趋势转弱\n\n### 6. 支撑位和阻力位分析\n\n#### 关键支撑位：\n1. **第一支撑位**: 9,800-9,900元（近期低点区域）\n2. **第二支撑位**: 9,500元（2025年6月低点附近）\n3. **第三支撑位**: 9,000元（重要心理关口）\n\n#### 关键阻力位：\n1. **第一阻力位**: 10,200-10,300元（近期震荡区间下沿）\n2. **第二阻力位**: 10,500元（60日均线附近）\n3. **第三阻力位**: 10,800-11,000元（前期震荡区间上沿）\n\n### 7. 技术面总结和短期走势判断\n\n#### 技术面总结：\n1. **趋势判断**：\n   - 短期趋势：明显下跌趋势\n   - 中期趋势：震荡偏弱\n   - 长期趋势：需要观察是否形成趋势反转\n\n2. **动能分析**：\n   - 下跌动能：较强，连续放量下跌\n   - 反弹动能：较弱，缺乏有效支撑\n\n3. **关键观察点**：\n   - 能否在9,800-9,900元获得支撑\n   - 成交量是否能够萎缩\n   - 是否出现技术性反弹信号\n\n#### 短期走势判断：\n1. **悲观情景**：\n   - 如果跌破9,800元支撑，可能下探9,500元\n   - 需要关注9,000元重要支撑\n\n2. **中性情景**：\n   - 在9,800-10,300元区间震荡整理\n   - 等待技术指标修复\n\n3. **乐观情景**：\n   - 在9,800元获得支撑后反弹\n   - 重新测试10,300-10,500元阻力\n\n#### 操作建议（技术面）：\n1. **谨慎观望**：当前处于下跌趋势中，建议谨慎操作\n2. **等待信号**：等待明确的止跌信号或技术指标修复\n3. **关注支撑**：密切关注9,800元支撑位的有效性\n4. **风险控制**：如果持有仓位，建议设置止损位\n\n### 8. 风险提示\n1. 技术分析基于历史数据，不能保证未来走势\n2. 当前市场情绪偏弱，需关注整体市场环境\n3. 茅台作为权重股，受大盘影响较大\n4. 建议结合基本面分析进行综合判断\n\n**免责声明**：本分析报告基于公开数据和技术分析方法，仅供参考，不构成投资建议。投资有风险，入市需谨慎。",
+    "fundamental_analysis_error": "Error in MCP or agent execution: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT",
+    "fundamental_analysis": "基本面分析过程中出现错误: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT"
+  },
+  "success": false,
+  "error": "Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT"
+}

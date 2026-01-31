@@ -1,0 +1,46 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2026-01-31T21:29:34.984314",
+  "start_timestamp": 1769866174.9843144,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2026-01-31T21:30:02.315327",
+  "end_timestamp": 1769866202.315328,
+  "execution_time_seconds": 27.30275559425354,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "current_date": "2026-01-31",
+    "current_date_cn": "2026年01月31日",
+    "current_time": "21:29:30",
+    "current_weekday_cn": "星期六",
+    "current_time_info": "2026年01月31日 (2026-01-31) 星期六 21:29:30",
+    "analysis_timestamp": "2026-01-31T21:29:30.783122",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "news_analysis_error": "Error in MCP or agent execution: Connection error.",
+    "news_analysis": "新闻分析过程中出现错误: Connection error.",
+    "value_analysis_error": "Error in MCP or agent execution: Connection error.",
+    "value_analysis": "估值分析过程中出现错误: Connection error.",
+    "fundamental_analysis_error": "Error in MCP or agent execution: Connection error.",
+    "fundamental_analysis": "基本面分析过程中出现错误: Connection error.",
+    "technical_analysis_error": "Error in MCP or agent execution: Connection error.",
+    "technical_analysis": "技术分析过程中出现错误: Connection error."
+  },
+  "success": false,
+  "error": "Connection error."
+}

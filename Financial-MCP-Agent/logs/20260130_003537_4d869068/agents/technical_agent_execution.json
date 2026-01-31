@@ -1,0 +1,33 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2026-01-30T00:35:41.553116",
+  "start_timestamp": 1769704541.553116,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2026-01-30T00:37:18.788504",
+  "end_timestamp": 1769704638.7885046,
+  "execution_time_seconds": 97.2152099609375,
+  "output_data": {
+    "technical_analysis_length": 2382,
+    "analysis_preview": "基于获取的数据，我现在为您进行贵州茅台（sh.600519）的全面技术分析：\n\n## 贵州茅台（sh.600519）技术分析报告\n\n### 1. 股票基本信息\n- **股票名称**: 贵州茅台\n- **股票代码**: sh.600519\n- **上市日期**: 2001年8月27日\n- **当前状态**: 正常交易（status=1）\n\n### 2. 最新价格数据（截至2026年1月29日）\n- **最新收盘价**: 10,771.4元\n- **当日涨跌幅**: +8.61%\n- **当日成交量**: 18,953,440手（异常放大）\n- **当日成交额**: 263.056亿元\n\n### 3. 价格趋势分析\n\n#### 近期走势（2025年7月-2026年1月）：\n1. **2025年7-8月**: 价格在10,300-11,000区间震荡\n2. **2025年9-10月**: 冲高至11,329.9元后回落\n3. **2025年11月**: 再次反弹至10,900附近\n4. **2025年12月**: 持续下跌至10,317.8元低点\n5. **2026年1月**: 先跌后涨，1",
+    "llm_execution_time": 85.71543002128601,
+    "total_execution_time": 97.2152099609375
+  },
+  "success": true,
+  "error": null
+}
