@@ -1,231 +1,70 @@
+﻿# Finance-Agents | 金融分析多智能体系统
 
+一句话：基于 LangGraph + MCP 的 A 股投研分析智能体，自动汇总财务 / 技术 / 估值 / 新闻并生成结构化报告。
 
-# 项目简述
+**定位**
+- 使用场景：对单只股票做快速投研梳理与要点总结
+- 输出形态：Markdown 报告（摘要、基本面、技术面、估值、新闻、风险、建议）
+- 运行方式：支持 API 大模型；总结 Agent 可切换本地 FinR1
 
-这是一个基于 LangGraph 的金融分析 Agent 系统，用于分析 A 股股票。系统包含五个 Agent：基本面分析 Agent、技术分析Agent、估值分析 Agent、新闻分析 Agent 和总结 Agent。前四个 Agent 通过 MCP 工具获取 A 股相关数据并与大语言模型（LLM）交互；总结 Agent 综合上游数据，提供最终投资建议。
+**亮点**
+- 5 个专业 Agent 并行分析，最后统一汇总
+- MCP 工具统一接入财务、行情、指数、宏观与新闻数据
+- 报告结构化、可读性高，适合展示与二次加工
+- 训练脚本支持风险 / 情感 LoRA 微调
+- 代码组织清晰，可拓展新的 Agent 或工具
 
+**演示**
+- 报告示例：`docs/report_sample_600519_20260131.md`（精选展示版）
+- 原始报告：`reports/` 与 `Financial-MCP-Agent/reports/`
+- 交互入口：`Financial-MCP-Agent/src/main.py`
+- Notebook 示例：`demo_sentiment_usage.ipynb`，`demo_sentiment_usage_min.ipynb`
 
-项目支持两种模式：**API 调用大模型**和​**本地FinR1模型**​。
+**报告摘录（样例）**
+- 执行摘要：“短期呈下降趋势，长期战略方向明确；但基本面与估值数据需后续财报验证。”
+- 风险等级：“中等（改革执行、宏观影响、技术面破位）”
+- 预期回报：“长期谨慎乐观”
+- 技术面：“关注 9,900-10,000 元支撑区；若跌破需防范进一步下探。”
+- 投资建议：“综合评级：持有 / 观望，适合长期价值投资者分批关注。”
+说明：完整报告见 `docs/report_sample_600519_20260131.md`。
 
-（FinR1来自[金融推理大模型Fin-r1 ](https://y95yb64h04.feishu.cn/wiki/AiaLwa3Q4iEI7rkXmY6cCOKUnvf?from=from_copylink)，用到了sft和grpo）
+**架构概览**
+```text
+User Query
+  -> LangGraph Orchestrator
+    -> Fundamental Agent
+    -> Technical Agent
+    -> Value Agent
+    -> News Agent
+    -> Summary Agent (aggregate)
+  -> Markdown Report
+```
 
-USE\_LOCAL\_MODEL=api表示使用api调用大模型，如果想使用FinR1，请设置为USE\_LOCAL\_MODEL=local，并自行下载https://huggingface.co/SUFE-AIFLM-Lab/Fin-R1模型（大小为7B）。
+**核心模块**
+- `Financial-MCP-Agent/src/main.py` 入口与工作流编排
+- `Financial-MCP-Agent/src/agents/*.py` 五类 Agent
+- `Financial-MCP-Agent/src/tools/mcp_client.py` MCP 客户端封装
+- `Financial-MCP-Agent/src/tools/mcp_config.py` MCP 服务配置
 
+**技术栈**
+- LangGraph, LangChain, MCP
+- Python, Transformers, PEFT
+- OpenAI 兼容接口 / 本地 FinR1
+- Baostock 与多源金融数据
 
-lora微调得到**风险分析模型**和**情感分析模型**用于**新闻分析Agent**。
+**快速运行（展示用最小步骤）**
+```bash
+pip install -r requirements.txt
+cp Financial-MCP-Agent/.env.example Financial-MCP-Agent/.env
+python Financial-MCP-Agent/src/main.py --command "帮我看看茅台(600519)这只股票值不值得投资"
+```
+说明：详细部署与训练说明见 `docs/README_FULL.md`。
 
+**关于我在项目中的工作（用于简历，可按实际情况修改）**
+- 设计多 Agent 分工与汇总报告结构
+- 整合 MCP 工具与多源金融数据
+- 训练 / 接入风险与情感模型（LoRA）
+- 输出可复用的报告模板与演示 Notebook
 
-
-## MCP 架构
-
-### MCP client
-
-* **main.py**​：先从用户提问中提取公司名、股票代码等metadata，然后构建LangGraph工作流，包含5个Agent：基本面分析Agent、技术分析Agent、估值分析Agent、新闻分析Agent和总结Agent，其中前四个Agent可以并行执行。
-  
-  * **基本面分析Agent**​：根据公司的财务数据，分析公司的盈利、成长空间、运行效率、负债情况等指标。
-  * **技术分析Agent**​：根据股票基本信息、最新价格和K线数据，分析价值趋势、成交量和其他技术指标。
-  * **估值分析Agent**​：根据公司基本信息和估值分析指标，与业内平均水平进行对比，分析估值变化趋势和股息数据，提供投资建议。
-  * **新闻分析Agent**​：根据公司相关的新闻，分析新闻对公司的风险评估和情感。
-  * **总结Agent**​：负责汇总前四个Agent的分析结果并生成markdown格式的报告，包括摘要、公司概况、基本面分析、技术分析、估值分析、新闻分析、综合评估、风险因素、投资建议、附录 10 部分。
-    前四个Agent的关系可以理解为：
-  * **基本面分析Agent**​：关注的是公司的长期发展，如赚钱能力强不强，发展前景如何，供长期投资参考。
-  * **技术分析Agent**​：关注短期指标，如最近的涨跌情况，现在买入是否合适，什么时候卖出，供短期投资参考。
-  * **估值分析Agent**​：关注价格是否合理，进行横向对比和股份分析（例如市盈率，股价是盈利的多少倍，这个值越大你能赚到的就越少，比如你有100块，A股票100块一股，每股盈利10块；B股票10块一股，每股盈利2元，只考虑市盈率的情况下你应该买B股票）。
-  * **新闻分析Agent**​：关注公司最近的新闻，从新闻中分析市场、政策等因素对公司的影响，分析新闻对公司的态度已经预测可能的风险。
-
-* **mcp\_client.py**​：定义了**mcp客户端**和​**一些工具函数**​。其中，`print_tool_details`打印可用工具，`get_mcp_tools`负责初始化MCP客户端并获取可用的金融分析工具列表，`close_mcp_client_sessions`负责关闭MCP客户端会话并清理资源，`_main_test_mcp_client`提供了简单的测试接口。
-
-* **fundamental\_agent.py**​：实现了一个基于ReAct (Reasoning + Acting)**​ ​**框架的股票​**基本面分析 Agent**​。包含以下功能：
-  * 加载模型
-  * 调用`get_mcp_tools`获取mcp工具列表（用于获取财务数据、公司信息等）
-  * 使用 `langgraph.prebuilt.create_react_agent `创建ReAct Agent，将模型与工具绑定。
-  * 构建详细的分析Prompt，包含公司名称、股票代码、当前日期等上下文信息，Prompt明确指定了8个基本面分析维度（公司信息、财务报表、盈利能力、成长能力等）
-  * 调用ReAct Agent执行分析，Agent会根据需要自主调用MCP工具获取实际数据
-  * 从Agent响应中提取最终分析结果（通常是最后一条AI消息）
-  * 记录LLM交互数据（输入、输出、执行时间等），用于后续优化
-  * 更新状态，保存分析结果和元数据
-  * 添加消息记录，维护对话历史
-
-其他三个agent与基本面分析 Agent的原理类似，区别只体现在提示词，因此不做赘述。
-
-* **​summary\_agent.py：​**将前面四个 Agent的分析结果整合成最终报告。
-  支持两种报告生成方式：
-  
-  * 本地模型 ：使用 FinR1 模型进行本地推理
-  * API 模型 ：通过 OpenAI 兼容接口调用远程大模型
-    具体步骤如下：
-  * 从状态中获取之前Agent的分析结果和当前时间，并填充入prompt中。
-  * 调用大模型生成报告。
-  * 记录LLM交互，用于后续分析和优化
-  * 将报告存储为markdown格式文件。
-
-## MCP server
-
-* **mcp\_server.py**​：首先在服务器端注册了多个MCP工具。
-
-* **​stock\_market.py：​**股票市场工具函数总结：
-
-1. `get_historical_k_data`： 历史K线数据获取函数
-   1. 功能：获取股票的历史K线数据，支持不同频率和复权方式
-   2. 参数：股票代码、日期范围、频率、复权标志、字段列表
-   3. 返回：Markdown格式的K线数据表格
-2. `get_stock_basic_info` ：股票基本信息获取函数
-   1. 功能：获取股票的基本信息，如股票名称、行业、上市日期等
-   2. 参数：股票代码、可选字段列表
-   3. 返回：Markdown格式的基本信息表格
-3. `get_dividend_data`： 分红数据获取函数
-   1. 功能：获取股票的分红派息信息
-   2. 参数：股票代码、年份、年份类型（预案公告年份或除权除息年份）
-   3. 返回：Markdown格式的分红数据表格
-4. `get_adjust_factor_data` ：复权因子数据获取函数
-   1. 功能：获取股票的复权因子数据，用于计算复权价格
-   2. 参数：股票代码、日期范围
-   3. 返回：Markdown格式的复权因子数据表格
-
-* **financial\_reports.py**​：财务报表工具函数总结：
-
-1. `get_profit_data `： 盈利能力数据获取函数
-   1. 功能：获取股票的季度盈利能力数据（ROE、净利润率等）
-   2. 参数：股票代码、年份、季度
-   3. 返回：Markdown格式的盈利能力数据表格
-2. `get_operation_data` ： 营运能力数据获取函数
-   1. 功能：获取股票的季度营运能力数据（周转率等）
-   2. 参数：股票代码、年份、季度
-   3. 返回：Markdown格式的营运能力数据表格
-3. `get_growth_data`： 成长能力数据获取函数
-   1. 功能：获取股票的季度成长能力数据（同比增长率等）
-   2. 参数：股票代码、年份、季度
-   3. 返回：Markdown格式的成长能力数据表格
-4. `get_balance_data` ：资产负债表数据获取函数
-   1. 功能：获取股票的季度资产负债表/偿债能力数据
-   2. 参数：股票代码、年份、季度
-   3. 返回：Markdown格式的资产负债表数据表格
-5. `get_cash_flow_data` ：现金流量数据获取函数
-   1. 功能：获取股票的季度现金流量数据
-   2. 参数：股票代码、年份、季度
-   3. 返回：Markdown格式的现金流量数据表格
-6. `get_dupont_data` ： 杜邦分析数据获取函数
-   1. 功能：获取股票的季度杜邦分析数据（ROE分解）
-   2. 参数：股票代码、年份、季度
-   3. 返回：Markdown格式的杜邦分析数据表格
-7. `get_performance_express_report `： 业绩快报数据获取函数
-   1. 功能：获取股票的业绩快报数据
-   2. 参数：股票代码、开始日期、结束日期
-   3. 返回：Markdown格式的业绩快报数据表格
-8. `get_forecast_report` ： 业绩预告数据获取函数
-   1. 功能：获取股票的业绩预告数据
-   2. 参数：股票代码、开始日期、结束日期
-   3. 返回：Markdown格式的业绩预告数据表格
-
-* **indices.py**​：指数工具函数总结：
-
-1. `get_stock_industry` ：股票行业分类数据获取函数
-   1. 功能：获取指定股票或所有股票的行业分类数据
-   2. 参数：股票代码（可选）、日期（可选）
-   3. 返回：Markdown格式的行业分类数据表格
-2. `get_sz50_stocks`：深证50指数成分股数据获取函数
-   1. 功能：获取深证50指数的成分股数据
-   2. 参数：日期（可选）
-   3. 返回：Markdown格式的深证50指数成分股数据表格
-3. `get_hs300_stocks` ：沪深300指数成分股数据获取函数
-   1. 功能：获取沪深300指数的成分股数据
-   2. 参数：日期（可选）
-   3. 返回：Markdown格式的沪深300指数成分股数据表格
-4. `get_zz500_stocks` ： 中证500指数成分股数据获取函数
-   1. 功能：获取中证500指数的成分股数据
-   2. 参数：日期（可选）
-   3. 返回：Markdown格式的中证500指数成分股数据表格
-
-* **market\_overview.py**​：市场概览工具函数总结：
-
-1. `get_trade_dates` ： 交易日数据获取函数
-   1. 功能：获取指定范围内的交易日信息
-   2. 参数：开始日期（可选）、结束日期（可选）
-   3. 返回：Markdown格式的交易日数据表格
-2. `get_all_stock` ：所有股票数据获取函数
-   1. 功能：获取指定日期的所有股票列表及其交易状态
-   2. 参数：日期（可选）
-   3. 返回：Markdown格式的所有股票数据表格
-
-* **macroeconomic.py**​：宏观经济工具函数总结：
-
-1. `get_deposit_rate_data` ： 存款利率数据获取函数
-   1. 功能：获取基准存款利率数据（活期、定期）
-   2. 参数：开始日期、结束日期
-   3. 返回：Markdown格式的存款利率数据表格
-2. `get_loan_rate_data` ： 贷款利率数据获取函数
-   1. 功能：获取基准贷款利率数据
-   2. 参数：开始日期、结束日期
-   3. 返回：Markdown格式的贷款利率数据表格
-3. `get_required_reserve_ratio_data` ：存款准备金率数据获取函数
-   1. 功能：获取存款准备金率数据
-   2. 参数：开始日期、结束日期、年份类型
-   3. 返回：Markdown格式的存款准备金率数据表格
-4. `get_money_supply_data_month` ：月度货币供应量数据获取函数
-   1. 功能：获取月度货币供应量数据（M0、M1、M2）
-   2. 参数：开始日期、结束日期
-   3. 返回：Markdown格式的月度货币供应量数据表格
-5. `get_money_supply_data_year` ： 年度货币供应量数据获取函数
-   1. 功能：获取年度货币供应量数据（M0、M1、M2年末余额）
-   2. 参数：开始日期、结束日期
-   3. 返回：Markdown格式的年度货币供应量数据表格
-
-* **date\_utils.py**​：日期工具函数总结：
-
-1. `get_latest_trading_date`： 最新交易日获取函数
-   1. 功能：获取最近的交易日期，如果当天是交易日则返回当天，否则返回最近的交易日
-   2. 参数：无
-   3. 返回：最近的交易日期，格式为'YYYY-MM-DD'
-2. `get_market_analysis_timeframe`： 市场分析时间范围获取函数
-   1. 功能：获取适合市场分析的时间范围，基于当前真实日期
-   2. 参数：时间范围类型（recent/quarter/half\_year/year）
-   3. 返回：包含分析时间范围的详细描述字符串
-
-* **​analysis.py：​**分析工具函数总结：
-
-1. `get_stock_analysis `： 股票分析报告生成函数
-   1. 功能：提供基于数据的股票分析报告，而非投资建议
-   2. 参数：股票代码、分析类型（fundamental/technical/comprehensive）
-   3. 返回：数据驱动的分析报告，包含关键财务指标、历史表现和同行业比较
-
-* **news\_crawler.py**​：新闻分析函数总结
-
-1. `crawl_news`：爬取相关新闻并进行分析
-   1. 功能：使用百度搜索爬取与查询词相关的新闻文章，并返回格式化的结果
-   2. 参数：搜索查询词、返回新闻数量（默认10条）
-   3. 返回：格式化的新闻结果字符串，包含标题、内容摘要、链接等信息
-
-### 怎么理解**风险分析**和​**情感分析**​？
-  
-  1. **风险分析**​：衡量不确定性和潜在损失
-  
-  * 关注点: 事件的不确定性程度、可能带来的负面影响
-  * **时间维度**: 未来可能发生的不利情况
-  
-  2. 情感分析：衡量市场情绪和短期影响
-  
-  * 关注点: 市场对新闻的即时反应和情绪倾向
-  * 时间维度: 当前的市场情绪状态
-  
- 例如:
-  
-  1. 新闻: "某AI概念股连续5个涨停，公司宣布进军人工智能领域，股价暴涨200%"
-     1. 风险: 5 (极高风险) ， 概念炒作，缺乏实际业绩支撑，存在大幅回调风险
-     2. 情感: 5 (极正面) ， 市场极度乐观，追涨情绪浓厚
-  2. 新闻: "国家发布新能源汽车补贴政策，补贴金额增加50%，相关产业链受益"
-     1. 风险: 2 (低风险) ， 政策确定性高，政府支持力度大
-     2. 情感: 4 (正面) ， 政策利好，市场情绪积极
-  3. 新闻: "某公司涉嫌财务造假，证监会立案调查，股价跌停，可能面临退市风险"
-     1. 风险: 5 (极高风险) ， 财务造假是最严重的风险，可能退市
-     2. 情感: 1 (极负面) ， 市场极度恐慌，抛售情绪浓厚
-  4. 新闻: "公司某高管出车祸意外死亡，但公司经营正常，业绩稳定"
-     1. 风险: 3(中等风险) ， 个人问题不影响公司基本面
-     2. 情感: 2 (轻微负面) ， 负面新闻影响市场情绪
-
-参考项目：
-
-* https://github.com/SUFE-AIFLM-Lab/Fin-R1/tree/main
-* https://github.com/24mlight/Financial-MCP-Agent/tree/main
-* https://github.com/24mlight/a-share-mcp-is-just-i-need/tree/main
-* https://github.com/AI4Finance-Foundation/FinRL?tab=readme-ov-file
-
+**备注**
+- 本仓库为展示用途，引用了若干开源组件与数据集，详见 `docs/README_FULL.md`。
