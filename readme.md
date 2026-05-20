@@ -60,7 +60,7 @@ python Financial-MCP-Agent/src/main.py --command "帮我看看茅台(600519)这�
 ```
 说明：详细部署与训练说明见 `docs/README_FULL.md`。
 
-**关于我在项目中的工作（用于简历，可按实际情况修改）**
+**项目亮点**
 - 设计多 Agent 分工与汇总报告结构
 - 整合 MCP 工具与多源金融数据
 - 训练 / 接入风险与情感模型（LoRA）
